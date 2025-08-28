@@ -2,4 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "font-bold";
+  src: url("../assets/fonts/static/NotoSans-Bold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "font-medium";
+  src: url("../assets/fonts/static/NotoSans-Medium.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "font-regular";
+  src: url("../assets/fonts/static/NotoSans-Regular.ttf");
+  font-display: swap;
+}
+.one {
+  font-family: "font-bold";
+  color: rgb(34, 216, 216);
+}
+
+.two {
+  font-family: "font-regular";
+  color: rgb(44, 63, 63);
 }/*# sourceMappingURL=style.css.map */

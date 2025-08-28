@@ -1,0 +1,13 @@
+
+
+// --FONTS--
+@mixin font-face ($name, $file) {
+    @font-face {
+        font-family: $name;
+        src: url($file);
+        font-display: swap;
+    }
+}
+
+
+

@@ -1,0 +1,19 @@
+
+@use "mixins" as m;
+
+
+// --FONTS--
+
+@include m.font-face("font-bold", "../assets/fonts/static/NotoSans-Bold.ttf");
+@include m.font-face("font-medium", "../assets/fonts/static/NotoSans-Medium.ttf");
+@include m.font-face("font-regular", "../assets/fonts/static/NotoSans-Regular.ttf");
+
+
+.one {
+    font-family: "font-bold";
+    color: rgb(34, 216, 216);
+}
+.two {
+    font-family: "font-regular";
+    color: rgb(44, 63, 63);
+}
